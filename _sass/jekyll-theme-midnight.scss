@@ -8,13 +8,13 @@ body {
   font:14px/1.5 "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#f0e7d5;
   font-weight: normal;
-  background: #252525;
+  background: #046d63;
   background-attachment: fixed !important;
   background: linear_gradient(#2a2a29, #1c1c1c);
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#e8e8e8;
+  color:#f44336;
   margin:0 0 10px;
   font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
@@ -38,7 +38,7 @@ h2 {
 }
 
 h4, h5, h6 {
-  color:#e8e8e8;
+  color:#aa4627;
 }
 
 h3 {
@@ -50,7 +50,7 @@ h3 {
 }
 
 a {
-  color:#ffcc00;
+  color:#f44336;
   font-weight:400;
   text-decoration:none;
 
@@ -184,12 +184,10 @@ dt {
 
       a {
         color: white;
-        border: 1px solid #5d910b;
-        background: linear_gradient(#93bd20, #659e10);
         border-radius: 2px;
         box-shadow: inset 0px 1px 0px rgba(255,255,255,.3), 0px 3px 7px rgba(0,0,0,.7);
 
-        background-color: #93bd20;
+        background-color: #F44336;
         padding: 10px 12px;
         margin-top: 6px;
         line-height:14px;
@@ -198,9 +196,7 @@ dt {
         text-align:center;
 
         &:hover {
-          background: linear_gradient(#749619, #527f0e);
-          background-color: #659e10;
-          border: 1px solid #527f0e;
+          background-color: #bd3025;
           box-shadow: inset 0px 1px 1px rgba(0,0,0,.2), 0px 1px 0px rgba(0,0,0,.0);
         }
       }
@@ -226,9 +222,10 @@ dt {
 
 section {
   max-width:650px;
-  padding: 30px 0px 50px 0px;
+  padding: 30px 20px 50px 20px;
   margin: 20px 0;
   margin-top: 70px;
+  background: #252525;
 
   #title {
     border: 0;
